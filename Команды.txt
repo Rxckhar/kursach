@@ -1,0 +1,9 @@
+npm install
+npm install axios
+npm install vue-router@4
+npm install -D tailwindcss
+npm run dev
+
+composer install
+php artisan migrate
+php -S localhost:8000 -t public
